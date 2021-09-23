@@ -1,22 +1,21 @@
-#include <iostream>
+//                        Make it Divisible
+// Link - https://www.codechef.com/START12B/problems/MAKEDIV3
 
+
+#include <iostream>
 using namespace std;
 
-int main(){
-	int t, n, m, x, y;
-	cin>> t;
+int main() {
+	int t, n;
+	cin >> t;
 	while(t--){
-		cin >> n >> m >> x >> y;
-		int xcount = (m+n)-2;
-		int ycount = 0;
-		int maximum = 999999999, temp = 0;
-		while(ycount != min(n,m)){
-            cout << xcount << " " << ycount << "\n";
-			temp += (xcount*x + ycount*y);
-			maximum = min(maximum, temp);
-			temp = 0;
-			ycount++; xcount -= 2;
-		}cout << maximum << endl;
+	    cin >> n;
+	    if(n == 1) cout << "3\n";
+	    else {
+	        cout << "1";
+	        for(int i = 0; i < n-2; i++) cout << "0";
+	        cout << "5\n";
+	    }
 	}
-return 0;
+	return 0;
 }
