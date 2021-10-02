@@ -1,4 +1,4 @@
-// 				Longest AND Subarray
+// 		   Longest AND Subarray
 // Link - https://www.codechef.com/OCT21B/problems/ANDSUBAR
 
 
