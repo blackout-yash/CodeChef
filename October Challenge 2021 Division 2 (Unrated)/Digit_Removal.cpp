@@ -1,4 +1,4 @@
-// 						Digit Removal
+// 			Digit Removal
 // Link - https://www.codechef.com/OCT21B/problems/DIGITREM
 
 
