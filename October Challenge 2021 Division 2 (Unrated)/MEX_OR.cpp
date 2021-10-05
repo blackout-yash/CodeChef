@@ -16,7 +16,8 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        ll x; cin >> x;
+        ll x;
+        cin >> x;
         ll power = int(log2(x)) + 1;
         if (x == 1 << power) cout << x << "\n";
         else if (x + 1 == 1 << power) cout << x + 1 << "\n";
